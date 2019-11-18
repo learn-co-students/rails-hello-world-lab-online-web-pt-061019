@@ -8,3 +8,10 @@ Started GET "/" for ::1 at 2015-11-16 16:12:00 -0600
 Processing by Rails::WelcomeController#index as HTML
   Rendered /Users/admin/.rvm/gems/ruby-2.1.2/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
 Completed 200 OK in 48ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+Started GET "/hello_world" for 127.0.0.1 at 2019-11-18 12:36:35 -0800
+Processing by HelloController#world as HTML
+  Rendering hello/world.erb within layouts/application
+  Rendered hello/world.erb within layouts/application (0.7ms)
+Completed 200 OK in 219ms (Views: 213.5ms | ActiveRecord: 0.0ms)
+
+
